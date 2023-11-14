@@ -33,14 +33,14 @@ public class Porta {
 	}
 	public void quantasPortasEstaoAbertas(boolean porta1, boolean porta2, boolean porta3) {
 		contador = 0;
-		if(porta1) {
+		if(this.porta1==true) {
 			contador++;
 			
 		}
-		if(porta2) {
+		if(this.porta2==true) {
 			contador++;
 		}
-		if(porta3) {
+		if(this.porta3==true) {
 			contador++;
 		}
 		System.out.println("Numeros de portas abertas: "+contador);
